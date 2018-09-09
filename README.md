@@ -1,1 +1,7 @@
 # TicTacToe-discord.py-rewrite
+
+# SETUP:
+
+## 1. Open the secret.py file and insert all require data (token, botID, yourID)
+## 2. Make sure you have all files in the right direction
+## 3. Run the Run.py file
