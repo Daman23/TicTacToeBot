@@ -1,7 +1,7 @@
 token = "" # token
 prefix = "!"                                                          # prefix
 BotID = int                                             # BotID
-invite = f"https://discordapp.com/oauth2/authorize?client_id={BotID}&scope=bot"      # InviteLink
+invite = "https://discordapp.com/oauth2/authorize?client_id={}&scope=bot".format(BotID)     # InviteLink
 color = 0x045FB4
 color_red = 0xFF0000
 color_green = 0x00FF00
