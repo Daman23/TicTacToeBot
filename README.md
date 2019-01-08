@@ -1,4 +1,4 @@
-# TicTacToe-discord.py-rewrite
+# TicTacToe-discord.py-rewrite (needs a rewrite)
 
 # SETUP: 
 ### Download via Gitbash ($ git clone https://github.com/Bmbus/TicTacToe-discord.py-rewrite.git)
