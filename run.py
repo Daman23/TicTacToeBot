@@ -4,8 +4,6 @@ try:
     from src.secret import token
     from src.secret import prefix
     from cmd.tic_tac_toe import TicTacToe
-    #from cmd.trigger_cmd import TriggerTTT
-    #from cmd.BotKI import TicTacToeBotKI
     from testing_queue import testing_queue
     from src.secret import bot_game
     from src.error import error
@@ -25,12 +23,11 @@ async def on_ready():
     except AttributeError:
         pass
 
+cogs = [TicTacToe(bot), testing_queue(bot), error(bot)]
+    
 def Run():
-    bot.add_cog(TicTacToe(bot))
-    #bot.add_cog(TriggerTTT(bot))
-    #bot.add_cog(TicTacToeBotKI(bot))
-    bot.add_cog(testing_queue(bot))
-    bot.add_cog(error(bot))
+    for cog in cogs
+        bot.add_cog(cog)
     bot.run(token)
 
 if __name__ == '__main__':
