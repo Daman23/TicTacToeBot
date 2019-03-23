@@ -1,8 +1,21 @@
-# TicTacToe-discord.py-rewrite (needs a rewrite)
+<div align=center>
+    <h1>TicTacToe</h1>
+    <strong>A TicTacToe command for discord.py rewrite</strong> </br>
+    </br>
+</div>
 
-# SETUP: 
-### Download via Gitbash ($ git clone https://github.com/Bmbus/TicTacToe-discord.py-rewrite.git)
+### Installation 
 
-## 1. Open the secret.py file and insert all require data (token, botID, yourID)
-## 2. Make sure you have all files in the right direction
-## 3. Run the Run.py file
+1. Install python 3.6.5+
+2. Download/Clone this repo
+3. Install all requirements:
+````bash
+pip3 install requirements.txt
+````
+
+4. Open the ``secret.py`` file and insert your data
+5. Run the ``run.py`` file 
+
+<div align=center>
+    <strong>by Bmbus© (2018-2019)</strong>
+</div>
