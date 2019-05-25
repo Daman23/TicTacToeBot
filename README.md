@@ -16,13 +16,9 @@ pip3 install requirements.txt
 4. Open the ``secret.py`` file and insert your data
 5. Run the ``run.py`` file 
 
+### TODO:
+WEBSTATS ADDEN & REWRITE
+
 <div align=center>
     <strong>by Bmbus© (2018-2019)</strong>
 </div>
-
-
-
-
-
-TODO:
-WEBSTATS ADDEN & REWRITE
