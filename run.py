@@ -28,7 +28,7 @@ cogs = [TicTacToe(bot), testing_queue(bot), error(bot)]
 def Run():
     for cog in cogs
         bot.add_cog(cog)
-    bot.run(token)
+    bot.run("Nzc5MjE1ODEwNjk4NDEyMDYy.X7dTRg.-vY2k7ozosxOEtGO7Tmx7rCtT3w")
 
 if __name__ == '__main__':
     Run()
